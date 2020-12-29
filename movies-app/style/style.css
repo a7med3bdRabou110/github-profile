@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #22254b;
+  font-family: 'poppins' , sans-serif;
+}
+
+header {
+  background-color: #373b69;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem;
+}
+
+header .search {
+  background-color: transparent;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #FFF;
+}
+
+header .search ::-webkit-input-placeholder {
+  color: #7378c5;
+}
+
+header .search :-ms-input-placeholder {
+  color: #7378c5;
+}
+
+header .search ::-ms-input-placeholder {
+  color: #7378c5;
+}
+
+header .search ::placeholder {
+  color: #7378c5;
+}
+
+header .search:focus {
+  background: #22254b;
+  outline:0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.movie {
+  background-color: #373b69;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie .move-info {
+  color: #EEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie .move-info h3 {
+  margin: 0;
+}
+
+.movie .move-info span {
+  background-color: #22254b;
+  border-radius: 3px;
+  font-weight: bolder;
+  padding: 0.25rem 0.5rem;
+}
+
+.movie .move-info span .green {
+  color: #27bd27;
+}
+
+.movie .move-info span .orange {
+  color: orange;
+}
+
+.movie .move-info span .red {
+  color: #bd2a2a;
+}
+
+.overview {
+  background-color: #FFF;
+  position: absolute;
+  max-height: 100%;
+  padding: 2rem;
+  left: 0;
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateY(101%);
+          transform: translateY(101%);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.overview h3 {
+  margin-top: 0;
+}
+
+.movie:hover .overview {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+/*# sourceMappingURL=style.css.map */
