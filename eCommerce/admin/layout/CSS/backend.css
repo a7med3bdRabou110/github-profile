@@ -1,0 +1,196 @@
+/* ! Start main rules*/
+body {
+  background-color: #f4f4f4;
+  font-size: 18px;
+}
+.asterisk {
+  font-size: 30px;
+  position: absolute;
+  right: 236px;
+  top: 28px;
+  color: rgb(192, 31, 31);
+}
+/*  ! End of main rules*/
+
+/* ? Start login form*/
+.login {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.login input {
+  margin-bottom: 10px;
+}
+
+.login .form-control {
+  background-color: #eaeaea;
+}
+
+.login .btn {
+  background-color: #008dde;
+}
+/* ? End login form */
+
+/* *TODO Start Edit bootstrap */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.nav > li > a,
+.navbar-brand {
+  padding: 15px 12px;
+}
+.navbar-brand {
+  font-size: 1em;
+}
+.navbar-dark .navbar-nav > .open > a,
+.navbar-dark .navbar-nav > .open > a:focus,
+.navbar-dark .navbar-nav > .open > a:hover {
+  background-color: #000;
+}
+
+/* *TODO End Edit bootstrap */
+
+/* ! Start dashboard Page */
+.home-stats .stats {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 3px 20px #ccc;
+  -moz-box-shadow: 0 3px 20px #ccc;
+  -ms-box-shadow: 0 3px 20px #ccc;
+  -o-box-shadow: 0 3px 20px #ccc;
+  box-shadow: 0 3px 20px #ccc;
+}
+
+.home-stats .stats a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-stats .stats span {
+  display: block;
+  font-size: 50px;
+}
+
+.home-stats .st-numbers {
+  background-color: #3498db;
+}
+.home-stats .st-pending {
+  background-color: #9b59b6;
+}
+.home-stats .st-items {
+  background-color: #34495e;
+}
+.home-stats .st-comments {
+  background-color: #10ac84;
+}
+.latest {
+  margin-top: 20px;
+}
+
+.latest-list {
+  margin-bottom: 0;
+}
+
+.latest-list li {
+  padding: 10px;
+}
+
+.latest-list li:nth-child(odd) {
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+}
+.btn {
+  padding: 0px 8px;
+}
+.activate {
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+/* ! End Dashboard Page*/
+
+/*? Start Edit page */
+h1 {
+  font-size: 55px;
+  margin: 40px 0;
+  color: #666;
+  font-weight: bolder;
+}
+
+.form-group {
+  position: relative;
+}
+
+.show-pass {
+  position: absolute;
+  top: 26px;
+  right: 169px;
+  color: darkgreen;
+}
+.main-table {
+  -webkit-box-shadow: 0 3px 10px #ccc;
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -ms-box-shadow: 0 3px 10px #ccc;
+  -o-box-shadow: 0 3px 10px #ccc;
+  box-shadow: 0 3px 10px #ccc;
+}
+.main-table {
+  background-color: #fff;
+  vertical-align: middle !important;
+}
+.main-table tr:first-child td {
+  background-color: #333;
+  color: #fff;
+  font-weight: bolder;
+}
+.main-table .btn {
+  padding: 5px 13px;
+  font-weight: bolder;
+}
+/*? End Edit page*/
+
+/* ! Start Manage Categories */
+
+.cat {
+  font-weight: bolder;
+}
+
+.cat h3 {
+  margin: 0 0 10px;
+}
+
+.cat:last-of-type ~ hr {
+  display: none;
+}
+
+.cat .visibility {
+  background-color: #c03;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.cat .commenting {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.cat .advertises {
+  background-color: #4b00fa;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+/*! End Manage Categories*/
